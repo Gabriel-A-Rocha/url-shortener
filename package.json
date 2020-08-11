@@ -1,0 +1,23 @@
+{
+  "name": "typescript-node-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel-A-Rocha",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@types/uuid": "^8.0.1",
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
